@@ -3,6 +3,17 @@ html {
 }
 body {
   background-color: #efefef;
+
+  height: 100vh;
+  width: 100vw;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  min-height: 100%;
+  width: 100%;
 }
 header {
   background: #2c2c2c;
@@ -101,12 +112,12 @@ main {
   transition-duration: 250ms;
 }
 footer {
+  margin-top: auto;
   background-color: #0b868b;
   color: white;
   text-align: center;
 }
 footer h2 {
-  margin-top: auto;
   padding: 1%;
   margin-bottom: 0;
 }
